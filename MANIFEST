@@ -1,0 +1,15 @@
+Build.PL
+Changes
+SIGNATURE
+MANIFEST
+MANIFEST.SKIP
+Makefile.PL
+README
+lib/CPAN/Search/Author.pm
+t/00-load.t
+t/01-test-case.t
+t/manifest.t
+t/pod.t
+META.yml
+SIGNATURE    Added here by Module::Build
+SIGNATURE    Added here by Module::Build

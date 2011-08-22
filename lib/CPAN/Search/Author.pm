@@ -6,15 +6,15 @@ use overload q("") => \&as_string, fallback => 1;
 
 =head1 NAME
 
-CPAN::AuthorsSearch - Interface to CPAN module author search.
+CPAN::AuthorsSearch - Interface to search CPAN module author.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $DEBUG   = 0;
 
 use Carp;

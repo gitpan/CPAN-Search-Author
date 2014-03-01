@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,25 +15,26 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 126d5054380c0e7e77a37d34c77607840f6be431 Build.PL
-SHA1 accbc389615ed310436147765591d3d2ebd7fc4f Changes
-SHA1 7f3fd689a35593c40df867a3de3be02e72b9dd44 MANIFEST
+SHA1 d023bc5ddf02d04ff58b7b3451aa0e85d3062202 Changes
+SHA1 02cdc1104d1452ad4af651b493ee4883c056ad70 MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 a0f4569751c2c0ad5472400da432dbb1d94c9347 META.yml
+SHA1 014ff142f5363ab1257140b20de1a6663dd6beff META.json
+SHA1 445f594d672943baa2462aa1f5c4880aaa50d96b META.yml
 SHA1 d31c6c5212ca420aa85770b2037b5d1ae23220ff Makefile.PL
 SHA1 91a98ab3c068cb3a7909f2d7e868740adc1d9d03 README
-SHA1 2f09b17e29b9941058c62a6ae59e3852d1456b55 lib/CPAN/Search/Author.pm
+SHA1 3d5be27e7fa7a762e4b8ec3e58472d193a32c286 lib/CPAN/Search/Author.pm
 SHA1 2facc645dcb1198684a9557c5e57e73b0eca09fd t/00-load.t
 SHA1 f37dca2b2da3160dcf4d2fa8be9c2a6ad5ecbc0e t/01-test-case.t
 SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
 SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2.0.14 (MingW32)
+Version: GnuPG v1.4.11 (MingW32)
 
-iQEcBAEBAgAGBQJOUmT9AAoJEPYcXBXhRYOhMFwH/2J4cfSORZx3iaAQGGapEJyn
-Tbe0EjjAAVJFLNh3kEwfKkHzJmIScMiJNPEWxTn2zEt7+8u7Lq3oC3HXowm2P3F6
-1CgQEX2QZUVPWg3bKh/I74CTpCrYhbta8SnrMfcLDLV9mqqsCuiqs+xnyu8axpbW
-JVzvNJGCrWU7KyEpIKl2yFZSwIw2ElDz7lgMUqu0+lE//lrPkDQDZoE+fkK6JYf+
-NbnoZP6qiQ46OIwe6yLkfwPkSn8IqZkLqLNv3jWlrXl3hxslSKy30qq32Q6sZ5h/
-Qzc3SPQJcOINARQhXp3hU91J0cbbu4wvyAZruINRDQRRptly0PV3o1IdC6ruSAQ=
-=flHn
+iQEcBAEBAgAGBQJTEb1AAAoJENoXJXWo7C/paXMH/iW2qsBSnegbTjN9pM8d7v43
+Z3C3kDqmt/Crq/X7uGLocqgsZgjzQZvTIG37GqJdeZa0G+dHs0WNdSuDjEFPUnWY
+V4N/kK4ILbGmuGkyM0Z4kLvZJ7iHLKcSsu8XgiuOwiA6T6BaaKZ8boKk1Q5X8y6Z
+SzOi2F9n1tdtFnMT2OBT1PDVZnQQxu47Xx0mWESIuI2ycafsdXqbdaxIjSCKACSg
+5lN0/VuIxeiGLKfLDd0iqBWdl8b2PskW9Idnl2ly+l+mtsxcT3YXtrQ2253Y0hK2
+BmO3agdq9cN3t9WNEah77n/dM145nL2z06B+s75W6loqSGuMylnaC1f//bRyerM=
+=odYy
 -----END PGP SIGNATURE-----

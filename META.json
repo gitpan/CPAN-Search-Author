@@ -1,0 +1,44 @@
+{
+   "abstract" : "Interface to search CPAN module author.",
+   "author" : [
+      "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "CPAN-Search-Author",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "HTML::Entities" : "1.35",
+            "HTTP::Request" : "1.40",
+            "LWP::UserAgent" : "2.33",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      }
+   },
+   "provides" : {
+      "CPAN::Search::Author" : {
+         "file" : "lib/CPAN/Search/Author.pm",
+         "version" : "0.03"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.03"
+}

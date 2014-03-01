@@ -6,15 +6,15 @@ use overload q("") => \&as_string, fallback => 1;
 
 =head1 NAME
 
-CPAN::AuthorsSearch - Interface to search CPAN module author.
+CPAN::Search::Author - Interface to search CPAN module author.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our $DEBUG   = 0;
 
 use Carp;
@@ -25,7 +25,7 @@ use HTML::Entities qw/decode_entities/;
 
 =head1 DESCRIPTION
 
-CPAN::AuthorsSearch is an attempt to provide a programmatical interface to CPAN Search engine.
+CPAN::Search::Author is an attempt to provide  programmatical interface to CPAN Search engine.
 CPAN Search is a search engine for the distributions, modules, docs, and ID's on CPAN.  It was
 conceived  and  built by  Graham Barr  as a way to make things easier to navigate.  Originally
 named TUCS [ The Ultimate CPAN Search ] it was later named CPAN Search or Search DOT CPAN.
@@ -248,7 +248,7 @@ L<http://search.cpan.org/dist/CPAN-Search-Author/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 Mohammad S Anwar.
+Copyright 2011-14 Mohammad S Anwar.
 
 This  program   is free software; you can redistribute it and/or modify  it under the terms of
 either :  the  GNU General Public License as published by the Free Software Foundation; or the
